@@ -82,7 +82,8 @@ func main() {
 	fmt.Printf("\nMake")
 	// a1 := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	// OR
-	a2 := make([]int, 3, 100)
+	a2 := make([]int, 3, 100) // slice with lenghth=10 and capacity=100
+	//a2 := make([]int, 10) // slice with length=10 and capacity=100=
 	fmt.Println(a2)
 	fmt.Printf("Length: %v\n", len(a2))
 	fmt.Printf("Capacity: %v\n", cap(a2))
